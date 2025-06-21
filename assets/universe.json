@@ -1,0 +1,15 @@
+{
+  "mystery": {
+    "victim": "char_001",
+    "perpetrator": "char_004",
+    "method": "method_002",
+    "motive": "motive_003",
+    "start_location": "loc_001",
+    "known_cards": [],
+    "characters": [],
+    "locations": [],
+    "items": [],
+    "methods": [],
+    "motives": []
+  }
+}
