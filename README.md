@@ -1,16 +1,25 @@
-# mystery
+# 🕵️‍♂️ Flutter Mystery Game
 
-A new Flutter project.
+A minimal cross-platform Flutter app that loads and displays mystery game data from a `universe.json` file. Designed for Sherlock Holmes-style deduction games with fixed killers, discoverable clues, and AI-generated story content.
 
-## Getting Started
+## ✨ Features
 
-This project is a starting point for a Flutter application.
+- Loads mystery structure from `assets/universe.json`
+- Displays key mystery data (victim, perpetrator, method, motive, start location)
+- Designed for replayability by swapping JSON files
+- Lightweight and under 1000 lines of code
+- Runs on Android, iOS, and Web
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Getting Started
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Prerequisites
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter SDK: https://flutter.dev/docs/get-started/install
+- Dart SDK (included with Flutter)
+- Android Studio / Xcode for device emulation (or physical device)
+
+### Run the App
+
+```bash
+flutter pub get
+flutter run
